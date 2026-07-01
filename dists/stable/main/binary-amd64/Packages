@@ -1,5 +1,29 @@
 Package: magma-sidecar
 Architecture: amd64
+Version: 0.1.02
+Priority: optional
+Section: utils
+Maintainer: Hydrogen Labs <ops@hydrogenlabs.xyz>
+Depends: systemd, libc6, ca-certificates
+Filename: pool/main/m/magma-sidecar/magma-sidecar_0.1.02_amd64.deb
+Size: 2213562
+MD5sum: aa4f578fb24d1616d4abd9460d94dbfe
+SHA1: 61c1199dc41e2edd7ddec9a71dac98d73fc3945d
+SHA256: 188ee20a2f960321e6369b9cbe068d430925975f5101b328c091b4e8a4be48f5
+SHA512: fd4891d7afc0406c24ecaf0927650ae3c1e91bb705c6081aa9defe7de48919d7aed11fd880a4e5115b184dbd93c7feb4ec816ff21d710e65d3f08ca4bae65a20
+Homepage: https://github.com/MagmaStaking/magma-sidecar
+Description: Magma Sidecar - tip-based MEV reprioritization for Monad
+ Co-located sidecar for a Monad validator. Provides a JSON-RPC ingress
+ (`POST /rpc/monad`) that transparently forwards into the Monad EL, and an
+ optional txpool IPC reprioritizer that re-injects MagmaSearcherGateway
+ traffic with a tip-derived priority so the node orders MEV-relevant
+ transactions ahead of vanilla traffic. Companion to the upstream Monad
+ node's txpool IPC protocol; see /usr/share/doc/magma-sidecar for details.
+Vcs-Git: https://github.com/MagmaStaking/magma-sidecar.git
+Vcs-Browser: https://github.com/MagmaStaking/magma-sidecar
+
+Package: magma-sidecar
+Architecture: amd64
 Version: 0~dev.12ba698
 Priority: optional
 Section: utils
