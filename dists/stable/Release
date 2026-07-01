@@ -1,0 +1,33 @@
+Date: Wed, 01 Jul 2026 13:34:46 +0000
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Wed, 01 Jul 2026 13:34:46 +0000
+Description: Hydrogen Labs / Magma packages
+Label: Magma APT Repository
+Origin: Magma
+Suite: stable
+MD5Sum:
+ 0b6475fb147540e25cf61576b9124180              199 Release
+ 017e6e90d6f89527173a74aa1eb7551a             1255 main/binary-amd64/Packages
+ d0b2b6f2c4a0d66e39cd4e9c22c3eed7              774 main/binary-amd64/Packages.gz
+ 87dbfd800f54e4eefcd6c6e1e409db7b             1255 main/binary-arm64/Packages
+ 6807d264fbac87fcd0ab570a65ddcb9a              775 main/binary-arm64/Packages.gz
+SHA1:
+ 81341239a692cde99bae8d4e93d422c7b3a07cea              199 Release
+ d7e7311df20eeaf61ca4f9852a05a3701b2a5ce4             1255 main/binary-amd64/Packages
+ 46e712d021606a68f26fce20215ac6d3b52dc9e6              774 main/binary-amd64/Packages.gz
+ 03b637252700e9ace81bad8ec52d6de1874b010f             1255 main/binary-arm64/Packages
+ e3d582de9b86196fb34580fd9266dbdca5fd2296              775 main/binary-arm64/Packages.gz
+SHA256:
+ d9d4e95dd773d6ca1cbb30351ddf13ee5f1cbddc695dbee956478999ce0a71f1              199 Release
+ ab9c876980738fea2c82222c79c55213b0ac60895bdb79e87999322083b8ca68             1255 main/binary-amd64/Packages
+ b94a5e1c2712015971f246b5eb87520c794a543af9d65e4cef51851548eae7b6              774 main/binary-amd64/Packages.gz
+ 2eff9380059163d1692c6c6740fbc58ddc2dd26382de0a67df340bac9a052772             1255 main/binary-arm64/Packages
+ 0bae80083e471a4c39ec1b82194137a67181005515cb272e3774e30e8c6dde5a              775 main/binary-arm64/Packages.gz
+SHA512:
+ 7fd3a909a401bb7099a39c6c9a2bdf2afd9d76849fe49720ad63e69a4d6631b16fa3d75295e418f5e0412da649c0ff33985a12c98895558f101cd099453798f6              199 Release
+ 74fcd5c98a6599123cb985c77bf86df4a66d900b4a95dd62e0a5dd88fe55ced6d213c6db9a842d49da642c2d3e0e44c3da7cbe34bf41ae0f5b4f018899130f3d             1255 main/binary-amd64/Packages
+ 43f90c8e62b972e132dc08f95b503f3db6f0220568aa87c066d9df1b281b11d7a757e9301b65a5e5093dd6062d0700e05e8de5441f94bd8f94d8b8b40197071d              774 main/binary-amd64/Packages.gz
+ 6c6546fa66012138e22a7eca2043e7842ce8ec464f6dcc4ac4b19611849953bf9dc53c28558ee13becb7f03dd9a5e18d871735a0cdceb9f9532597d553569ff2             1255 main/binary-arm64/Packages
+ 1d488d0657227b68c1100382152cac9c477a59abe37f738d3fed2515eeaa79b0769eeb08bf1fc25fd6157c56d1d4458c1a0b241a8e3692b85d5e95a3b4f320ac              775 main/binary-arm64/Packages.gz
