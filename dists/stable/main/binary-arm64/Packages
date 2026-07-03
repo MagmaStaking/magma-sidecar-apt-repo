@@ -47,6 +47,29 @@ Vcs-Browser: https://github.com/MagmaStaking/magma-sidecar
 
 Package: magma-sidecar
 Architecture: arm64
+Version: 0.1.04
+Priority: optional
+Section: utils
+Maintainer: Hydrogen Labs <ops@hydrogenlabs.xyz>
+Depends: systemd, libc6
+Filename: pool/main/m/magma-sidecar/magma-sidecar_0.1.04_arm64.deb
+Size: 1053588
+MD5sum: e828463fd816b5e0976ac6966b008408
+SHA1: 066ae86506a35ed892d406daa8e8341aaa7cb730
+SHA256: aa86dbfbf76116e7cb03312eed1630a5546b3332b7ac9559026c17c2169e8254
+SHA512: 090d3edd6eeb1b480913c7331a73eb5edbf573ba271b12b070e72e49c1d3b1dd15f0b64c2e9bc9d31ebee368a9480db2a2eef523832ff11af7fd568a074504ee
+Homepage: https://github.com/MagmaStaking/magma-sidecar
+Description: Magma Sidecar - tip-based MEV reprioritization for Monad
+ Co-located sidecar for a Monad validator. Connects to the node's txpool IPC
+ socket and re-injects MagmaSearcherGateway traffic with a tip-derived priority
+ so the node orders MEV-relevant transactions ahead of vanilla traffic. Searchers submit to the node's
+ JSON-RPC directly. Companion to the upstream Monad node's txpool IPC protocol;
+ see /usr/share/doc/magma-sidecar for details.
+Vcs-Git: https://github.com/MagmaStaking/magma-sidecar.git
+Vcs-Browser: https://github.com/MagmaStaking/magma-sidecar
+
+Package: magma-sidecar
+Architecture: arm64
 Version: 0~dev.12ba698
 Priority: optional
 Section: utils
