@@ -1,0 +1,7 @@
+# Magma Sidecar release manifest
+# Version: 0.1.08
+# Source-Repository: https://github.com/MagmaStaking/magma-sidecar
+# Source-Commit: 8addf9ff9b5f5bedc0f06a78f6ce167359e06f7a
+# Container-Image: ghcr.io/magmastaking/magma-sidecar@sha256:b20df0a163dedde2f4b9e95534335dba7c3c9903795969fc8bb822d752252ccb
+8be8bfb8de9a55434466a36e3d84115fd358311b1b75c3dd61d916ce1c3e76e0  magma-sidecar_0.1.08_amd64.deb
+da03a10a4c7cabb02949e26309988702ad49c08fa68fe73d4815a70cf3ce7d1a  magma-sidecar_0.1.08_arm64.deb
